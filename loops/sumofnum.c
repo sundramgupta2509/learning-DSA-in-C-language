@@ -10,17 +10,12 @@ int main()
 
     int sum = 0;
 
-    for(int i = 0; i <= n; i++)
+    for(int i = 0, j = n; i <= n && j >= 1; i++ , j--)
     {
         sum = sum + i;
+        printf("%d\n" , j);
     }
      
     printf("Sum of n numbers is: %d\n", sum);
-
-    
-    for(int i = n; i > 0; i--)
-    {
-        printf("%d\n",i);
-    }
     
 }
