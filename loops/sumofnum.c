@@ -18,9 +18,9 @@ int main()
     printf("Sum of n numbers is: %d\n", sum);
 
     
-    for(int i = n; i >= 1; i--);
+    for(int i = n; i > 0; i--)
     {
-        printf("Sum is %d", i);
+        printf("%d\n",i);
     }
     
 }
